@@ -40,3 +40,24 @@ body{
   margin-top: 0.5rem;
 }
 
+.header-container {
+  height: 100vh;
+  position: relative;
+  background:
+          linear-gradient(rgba(69, 73, 85, 0.98), rgba(69, 73, 85, 0.98)),
+          url("/assets/img/background/sketch.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#projects{
+  background:
+          linear-gradient(rgba(69, 73, 85, 0.9), rgba(69, 73, 85, 0.9)),
+          url("/assets/img/background/projects.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
