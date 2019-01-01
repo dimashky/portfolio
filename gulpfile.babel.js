@@ -17,7 +17,7 @@ var connection = function(){
 
 var style = function(cb) {
   gulp.src('./src/assets/sass/index.scss')
-  .pipe(sass({style: 'expanded', errLogToConsole: true, includePaths: ['node_modules/']}))
+  .pipe(sass({style: 'expanded',outputStyle: 'compressed', errLogToConsole: true, includePaths: ['node_modules/']}))
     .on('error', gutil.log)
   .pipe(gulp.dest('./docs/assets/css'))
 	.pipe(connect.reload());
