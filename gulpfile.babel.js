@@ -10,7 +10,7 @@ var concat = require('gulp-concat');
 
 var connection = function(){
   connect.server({
-    root: 'dist',
+    root: 'docs',
     livereload: true
   });
 };
@@ -19,7 +19,7 @@ var style = function(cb) {
   gulp.src('./src/assets/sass/index.scss')
   .pipe(sass({style: 'expanded', errLogToConsole: true, includePaths: ['node_modules/']}))
     .on('error', gutil.log)
-  .pipe(gulp.dest('./dist/assets/css'))
+  .pipe(gulp.dest('./docs/assets/css'))
 	.pipe(connect.reload());
   cb();
 };
@@ -29,7 +29,7 @@ gulp.task('sass',style);
 var template = function (cb) {
 	gulp.src('./src/index.ejs')
 		.pipe(ejs({ }, {}, { ext: '.html' }).on('error', gutil.log))
-		.pipe(gulp.dest('./dist'))
+		.pipe(gulp.dest('./docs'))
 		.pipe(connect.reload());
 	cb();
 }
@@ -41,7 +41,7 @@ var scripts = function() {
 			'./src/assets/js/*.js'
 		])
 		.pipe(babel({presets: ["@babel/preset-env"]}))
-		.pipe(gulp.dest('./dist/assets/js'))
+		.pipe(gulp.dest('./docs/assets/js'))
 		.pipe(connect.reload());
 };
 
