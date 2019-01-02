@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30351321-8db7-4403-83e6-d2dd0ebcef36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/services.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/img/icons/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/icons/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/img/icons/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/icons/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/img/icons/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/icons/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/contact.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/contact.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="30351321-8db7-4403-83e6-d2dd0ebcef36" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,7 +15,7 @@
     <session id="110802536">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -334,16 +321,15 @@
       <workItem from="1546361779065" duration="98000" />
       <workItem from="1546380930880" duration="2939000" />
       <workItem from="1546384407253" duration="426000" />
-      <workItem from="1546419834640" duration="5016000" />
+      <workItem from="1546419834640" duration="5129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35748000" />
+    <option name="totallyTimeSpent" value="35861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,7 +346,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.13590604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5503356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
