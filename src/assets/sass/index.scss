@@ -1,5 +1,6 @@
 @import "color";
 @import "bootstrap/scss/bootstrap.scss";
+@import "services";
 @import "portfolio";
 @import "font";
 
@@ -28,11 +29,22 @@ body{
 }
 
 .my-image{
-  max-height: 150px;
-  border-radius: 50%;
+  max-height: 310px;
+  //border-radius: 50%;
   -webkit-box-shadow: 0px 1px 21px 0px $primary;
   -moz-box-shadow: 0px 1px 21px 0px $primary;
   box-shadow: 0px 1px 21px 0px $primary;
+}
+
+.my-image-sm{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  -webkit-box-shadow: 0px 1px 11px 0px $primary;
+  -moz-box-shadow: 0px 1px 11px 0px $primary;
+  box-shadow: 0px 1px 11px 0px $primary;
 }
 
 .about .progress{
