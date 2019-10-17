@@ -39,7 +39,7 @@
     "gulp-util": "latest"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "particles.js": "^2.0.0"
   }
 }
