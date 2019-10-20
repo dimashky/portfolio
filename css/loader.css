@@ -8,9 +8,12 @@
 	background: #6699cc;
 }
 
+body{
+	background: #6699cc;
+}
+
 #app{
-	visibility: visible;
-	display: none;
+	visibility: hidden;
 }
 
 .spinner {

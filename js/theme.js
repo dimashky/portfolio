@@ -96,7 +96,8 @@
   $(window).on('load',function() {
     // page is fully loaded, including all frames, objects and images
    
-    $("#app").css('display', 'block');
-    setTimeout(function(){$("#loader").remove();}, 500);
+    $("#app").css('visibility', 'visible');
+    $("body").css('background', '#ffffff');
+    $("#loader").remove();
   });
 })(jQuery);
