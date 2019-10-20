@@ -9,7 +9,8 @@
 }
 
 #app{
-	visibility: hidden;
+	visibility: visible;
+	display: none;
 }
 
 .spinner {
