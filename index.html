@@ -8,6 +8,7 @@
 	<title>Mhd Dimashky Portfolio</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/loader.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
@@ -21,515 +22,523 @@
 </head>
 
 <body>
-
-	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<h1>
-						<a class="navbar-brand text-white" style="color: #333333;" href="index.html">Mhd Dimashky</a>
-					</h1>
-						<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation" disabled>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<!--
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							-->
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================Header Menu Area =================-->
-
-	<!--================Home Banner Area =================-->
-	<section class="banner-area owl-carousel" id="home">
-		<div class="single_slide_banner slide_bg1">
-			<div class="container">
-				<div class="row fullscreen d-flex align-items-center">
-					<div class="banner-content col-lg-12 justify-content-center">
-						<h1>Mohamed Khair Dimashky</h1>
-						<h3>Software Enigneer</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Home Banner Area =================-->
-
-	<!--================ Start Portfolio Area =================-->
-	<section class="section_gap portfolio_area" id="work">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center">
-					<div class="main-title">
-						<h1>Latest Works</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-10">
-					<div class="projects_fillter">
-						<ul class="filter list">
-							<li class="active" data-filter="*">All Categories</li>
-							<li data-filter=".solutions">Solutions</li>
-							<li data-filter=".clients">Client Projects </li>
-							<li data-filter=".university">University Projects</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="projects_inner row grid">
-				<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-				<div class="col-lg-6 col-sm-6 col-sm-12 brand solutions grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/moyaser.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#almoyaser">
-								<h4>Al-Moyaser</h4>
-							</a>
-							<p>Dental Practice Management System</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 col-sm-12 brand clients grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/almoayad.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#almoayad">
-								<h4>AlMoayad Group</h4>
-							</a>
-							<p>Company Portfolio</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 clients grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/drfd.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#drfd">
-								<h4>dr-fd.com</h4>
-							</a>
-							<p>Dr.Fouad Dimashky Portfolio</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 brand clients grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/eatemad.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#eatmad">
-								<h4>Eatmad Al-Khalej</h4>
-							</a>
-							<p>Company Portfolio</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 brand university grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/compiler.png" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#compiler">
-								<h4>C# Compiler</h4>
-							</a>
-							<p>University Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 brand work university grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/meshwary.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#meshwary">
-								<h4>Meshwary</h4>
-							</a>
-							<p>University Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 brand work university grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/search.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#searchengine">
-								<h4>Search Engine</h4>
-							</a>
-							<p>University Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 brand work university grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/quadcopter.jpg" alt="">
-						<div class="projects_text">
-							<a href="#" data-toggle="modal" data-target="#quadcopter">
-								<h4>QuadCopter Simulator</h4>
-							</a>
-							<p>University Project</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Portfolio Area =================-->
-
-	<!--================ Start About Area =================-->
-	<section class="about-area section_gap gray-bg">
-		<div class="container">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-5 about-left">
-					<img class="img-fluid" src="img/about-img.jpg" alt="">
-				</div>
-				<div class="col-lg-6 col-md-12 about-right">
-					<div class="main-title text-left">
-						<h1>about Me</h1>
-					</div>
-					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
-						<p>
-							I am a Syrian software engineer, graduated from Damascus University in 2019.
-						</p>
-						<p>
-							I have worked as a full-stack web developer for ten months in <a
-								href="http://appagroup.net/" target="_blank"> APPA Group</a> between March 2018 and
-							December 2018.
-							Then I started my first startup in appointment management software (<a
-								href="http://moyaser.dimashky.com" target="_blank">AlMoyaser</a>) which was designed for the dentists and now
-							it is running in many dental centers in Damascus Syria.
-						</p>
-						<p>
-							I also participated in college programming contests (<a href="https://icpc.baylor.edu/"
-								target="_blank">Damascus-CPC</a>) in my university between 2016 and 2017, and I
-							qualified to the national contests.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Area =================-->
-
-	<!--================Contact Area =================-->
-	<section class="contact_area section_gap">
-		<div class="container">
-			<div class="main-title text-left text-center">
-				<h1>Contact Me</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="contact_info">
-						<div class="info_item">
-							<i class="lnr lnr-home"></i>
-							<h6>Damascus, Syria.</h6>
-							<p>And my hometown.</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-phone-handset"></i>
-							<h6><a href="#">00963 994679120</a></h6>
-							<p>I have Whatsapp also.</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-envelope"></i>
-							<p><a href="#">mohamed.khair.dimashky@gmail.com</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="contact_info">
-						<div class="info_item py-2">
-							<i class="fa fa-facebook"></i>
-							<h6><a href="https://www.facebook.com/Mohamed.Dimashky" target="_blanck">facebook</a></h6>
-						</div>
-						<div class="info_item py-2">
-							<i class="fa fa-linkedin"></i>
-							<h6><a href="https://www.linkedin.com/in/mohameddimashky" target="_blanck">Linkedin</a></h6>
-						</div>
-						<div class="info_item py-2">
-							<i class="fa fa-github"></i>
-							<h6><a href="https://github.com/dimashky" target="_blanck">GitHub</a></h6>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================Contact Area =================-->
-
-	<!--================ Start Footer Area =================-->
-	<footer class="footer_area py-3">
-	</footer>
-	<!--================End Footer Area =================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- The Modal -->
-	<div class="modal fade" id="quadcopter">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">QuadCopter Simulator</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>University Project</p>
-						<ul class="list">
-							<li><span>Website</span>: <a href="https://github.com/dimashky/Quadcopter-Simulator"
-									target="_blanck">GitHub</a> </li>
-							<li><span>Date</span>: December 2016</li>
-							<li><span>Technologies</span>: C# & XNA</li>
-						</ul>
-					</div>
-					<p>Pictures:</p>
-					<div class="owl-carousel owl-theme projects">
-						<div class="item" ><img src="/img/works/quadcopter-details.png" alt=""></div>
-					</div>
-				</div>
-			</div>
+	<div id="loader">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
 		</div>
 	</div>
 
-	<!-- The Modal -->
-	<div class="modal fade" id="almoayad">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">Al-Moayad Group</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>Client Project</p>
-						<ul class="list">
-							<li><span>Client</span>: Al-Moayad Group</li>
-							<li><span>Website</span>: <a href="http://almoayad-group.com"
-									target="_blanck">almoayad-group.com</a> </li>
-							<li><span>Started</span>: December 2017</li>
-							<li><span>Completed</span>: March 2018</li>
-							<li><span>Technologies</span>: PHP Laravel, MySQL, VueJS.</li>
-						</ul>
+	<div id="app">
+			<!--================Header Menu Area =================-->
+			<header class="header_area">
+					<div class="main_menu">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<div class="container">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<h1>
+									<a class="navbar-brand text-white" style="color: #333333;" href="index.html">Mhd Dimashky</a>
+								</h1>
+									<button class="navbar-toggler" type="button" data-toggle="collapse"
+									data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+									aria-expanded="false" aria-label="Toggle navigation" disabled>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+									<ul class="nav navbar-nav menu_nav justify-content-end">
+										<!--
+											<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+										-->
+									</ul>
+								</div>
+							</div>
+						</nav>
 					</div>
-					<p>Pictures:</p>
-					<div class="owl-carousel owl-theme projects">
-						<div class="item" ><img src="/img/works/almoayad-details.JPG" alt=""></div>
+				</header>
+				<!--================Header Menu Area =================-->
+			
+				<!--================Home Banner Area =================-->
+				<section class="banner-area owl-carousel" id="home">
+					<div class="single_slide_banner slide_bg1">
+						<div class="container">
+							<div class="row fullscreen d-flex align-items-center">
+								<div class="banner-content col-lg-12 justify-content-center">
+									<h1>Mohamed Khair Dimashky</h1>
+									<h3>Software Enigneer</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--================End Home Banner Area =================-->
+			
+				<!--================ Start Portfolio Area =================-->
+				<section class="section_gap portfolio_area" id="work">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-6 text-center">
+								<div class="main-title">
+									<h1>Latest Works</h1>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-lg-10">
+								<div class="projects_fillter">
+									<ul class="filter list">
+										<li class="active" data-filter="*">All Categories</li>
+										<li data-filter=".solutions">Solutions</li>
+										<li data-filter=".clients">Client Projects </li>
+										<li data-filter=".university">University Projects</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="projects_inner row grid">
+							<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
+							<div class="col-lg-6 col-sm-6 col-sm-12 brand solutions grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/moyaser.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#almoyaser">
+											<h4>Al-Moyaser</h4>
+										</a>
+										<p>Dental Practice Management System</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-sm-6 col-sm-12 brand clients grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/almoayad.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#almoayad">
+											<h4>AlMoayad Group</h4>
+										</a>
+										<p>Company Portfolio</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-sm-6 clients grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/drfd.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#drfd">
+											<h4>dr-fd.com</h4>
+										</a>
+										<p>Dr.Fouad Dimashky Portfolio</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6 brand clients grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/eatemad.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#eatmad">
+											<h4>Eatmad Al-Khalej</h4>
+										</a>
+										<p>Company Portfolio</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6 brand university grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/compiler.png" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#compiler">
+											<h4>C# Compiler</h4>
+										</a>
+										<p>University Project</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6 brand work university grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/meshwary.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#meshwary">
+											<h4>Meshwary</h4>
+										</a>
+										<p>University Project</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-sm-6 brand work university grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/search.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#searchengine">
+											<h4>Search Engine</h4>
+										</a>
+										<p>University Project</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-sm-6 brand work university grid-item">
+								<div class="projects_item">
+									<img class="img-fluid w-100" src="img/works/quadcopter.jpg" alt="">
+									<div class="projects_text">
+										<a href="#" data-toggle="modal" data-target="#quadcopter">
+											<h4>QuadCopter Simulator</h4>
+										</a>
+										<p>University Project</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--================ End Portfolio Area =================-->
+			
+				<!--================ Start About Area =================-->
+				<section class="about-area section_gap gray-bg">
+					<div class="container">
+						<div class="row align-items-center justify-content-between">
+							<div class="col-lg-5 about-left">
+								<img class="img-fluid" src="img/about-img.jpg" alt="">
+							</div>
+							<div class="col-lg-6 col-md-12 about-right">
+								<div class="main-title text-left">
+									<h1>about Me</h1>
+								</div>
+								<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
+									<p>
+										I am a Syrian software engineer, graduated from Damascus University in 2019.
+									</p>
+									<p>
+										I have worked as a full-stack web developer for ten months in <a
+											href="http://appagroup.net/" target="_blank"> APPA Group</a> between March 2018 and
+										December 2018.
+										Then I started my first startup in appointment management software (<a
+											href="http://moyaser.dimashky.com" target="_blank">AlMoyaser</a>) which was designed for the dentists and now
+										it is running in many dental centers in Damascus Syria.
+									</p>
+									<p>
+										I also participated in college programming contests (<a href="https://icpc.baylor.edu/"
+											target="_blank">Damascus-CPC</a>) in my university between 2016 and 2017, and I
+										qualified to the national contests.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--================ End About Area =================-->
+			
+				<!--================Contact Area =================-->
+				<section class="contact_area section_gap">
+					<div class="container">
+						<div class="main-title text-left text-center">
+							<h1>Contact Me</h1>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="contact_info">
+									<div class="info_item">
+										<i class="lnr lnr-home"></i>
+										<h6>Damascus, Syria.</h6>
+										<p>And my hometown.</p>
+									</div>
+									<div class="info_item">
+										<i class="lnr lnr-phone-handset"></i>
+										<h6><a href="#">00963 994679120</a></h6>
+										<p>I have Whatsapp also.</p>
+									</div>
+									<div class="info_item">
+										<i class="lnr lnr-envelope"></i>
+										<p><a href="#">mohamed.khair.dimashky@gmail.com</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="contact_info">
+									<div class="info_item py-2">
+										<i class="fa fa-facebook"></i>
+										<h6><a href="https://www.facebook.com/Mohamed.Dimashky" target="_blanck">facebook</a></h6>
+									</div>
+									<div class="info_item py-2">
+										<i class="fa fa-linkedin"></i>
+										<h6><a href="https://www.linkedin.com/in/mohameddimashky" target="_blanck">Linkedin</a></h6>
+									</div>
+									<div class="info_item py-2">
+										<i class="fa fa-github"></i>
+										<h6><a href="https://github.com/dimashky" target="_blanck">GitHub</a></h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--================Contact Area =================-->
+			
+				<!--================ Start Footer Area =================-->
+				<footer class="footer_area py-3">
+				</footer>
+				<!--================End Footer Area =================-->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="quadcopter">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">QuadCopter Simulator</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>University Project</p>
+									<ul class="list">
+										<li><span>Website</span>: <a href="https://github.com/dimashky/Quadcopter-Simulator"
+												target="_blanck">GitHub</a> </li>
+										<li><span>Date</span>: December 2016</li>
+										<li><span>Technologies</span>: C# & XNA</li>
+									</ul>
+								</div>
+								<p>Pictures:</p>
+								<div class="owl-carousel owl-theme projects">
+									<div class="item" ><img src="/img/works/quadcopter-details.png" alt=""></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="almoayad">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">Al-Moayad Group</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>Client Project</p>
+									<ul class="list">
+										<li><span>Client</span>: Al-Moayad Group</li>
+										<li><span>Website</span>: <a href="http://almoayad-group.com"
+												target="_blanck">almoayad-group.com</a> </li>
+										<li><span>Started</span>: December 2017</li>
+										<li><span>Completed</span>: March 2018</li>
+										<li><span>Technologies</span>: PHP Laravel, MySQL, VueJS.</li>
+									</ul>
+								</div>
+								<p>Pictures:</p>
+								<div class="owl-carousel owl-theme projects">
+									<div class="item" ><img src="/img/works/almoayad-details.JPG" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="almoyaser">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">Al-Moyaser</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>Dental Practice Management System, focus to make appointment scheduling easier.</p>
+									<ul class="list">
+										<li><span>Website</span>: <a href="http://moyaser.dimashky.com"
+												target="_blanck">moyaser.dimashky.com</a> </li>
+										<li><span>Started</span>: October 2018</li>
+										<li><span>Completed</span>: In progress</li>
+									</ul>
+								</div>
+								<p>Pictures:</p>
+								<div class="owl-carousel owl-theme projects">
+									<div class="item"><img src="/img/works/moyaser/intro.png" alt=""></div>
+									<div class="item-video" data-merge="1"><a class="owl-video"
+											href="https://www.youtube.com/watch?v=pX72wR7SbiI"></a></div>
+									<div class="item-video" data-merge="1"><a class="owl-video"
+											href="https://www.youtube.com/watch?v=REKveVqGfrA"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="quadcopter">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">QuadCopter Simulator</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>University Project</p>
+									<ul class="list">
+										<li><span>Website</span>: <a href="https://github.com/dimashky/Quadcopter-Simulator"
+												target="_blanck">GitHub</a> </li>
+										<li><span>Date</span>: December 2016</li>
+										<li><span>Technologies</span>: C# & XNA</li>
+									</ul>
+								</div>
+								<p>Pictures:</p>
+								<div class="owl-carousel owl-theme projects">
+									<div class="item" ><img src="/img/works/quadcopter-details.png" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="drfd">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">Dr. Fouad Portfolio</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>Client Project</p>
+									<ul class="list">
+										<li><span>Client</span>: Fouad Dimashky</li>
+										<li><span>Website</span>: <a href="http://dr-fd.com"
+												target="_blanck">dr-fd.com</a> </li>
+										<li><span>Date</span>: 2017</li>
+										<li><span>Technologies</span>: PHP Laravel, MySQL, Bootstrap.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="searchengine">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">Search Engine</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>Content Based Search Engine, University Project</p>
+									<ul class="list">
+										<li><span>Website</span>: <a href="https://github.com/dimashky/content-based-image-retrieval"
+												target="_blanck">GitHub</a> </li>
+										<li><span>Date</span>: May 2019</li>
+										<li><span>Technologies</span>: Python</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="meshwary">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">Meshwary</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>Navigation System, Graduation Project</p>
+									<ul class="list">
+										<li><span>Grade</span>: 94%</li>
+										<li><span>Date</span>: July 2019</li>
+										<li><span>Technologies</span>: 
+											<span class="badge badge-pill badge-secondary">Python</span>
+											<span class="badge badge-pill badge-secondary">Laravel</span>
+											<span class="badge badge-pill badge-secondary">Redis</span>
+											<span class="badge badge-pill badge-secondary">NodeJS</span>
+											<span class="badge badge-pill badge-secondary">RPC</span>
+										</li>
+									</ul>
+								</div>
+								<p>Pictures:</p>
+								<div class="owl-carousel owl-theme projects">
+									<div class="item"><img src="/img/works/meshwary/RoutePlanner.png" alt=""></div>
+									<div class="item" ><img src="/img/works/meshwary/Congestion.png" alt=""></div>
+									<div class="item" ><img src="/img/works/meshwary/Lines.png" alt=""></div>
+									<div class="item" ><img src="/img/works/meshwary/stops.png" alt=""></div>
+									<div class="item" ><img src="/img/works/meshwary/Tracker.png" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="compiler">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">C# Compiler</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>University Project</p>
+									<ul class="list">
+										<li><span>Website</span>: <a href="https://github.com/dimashky/compiler"
+												target="_blanck">GitHub</a> </li>
+										<li><span>Date</span>: May 2018</li>
+										<li><span>Technologies</span>: C++ & assembly</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<!-- The Modal -->
+				<div class="modal fade" id="eatmad">
+					<div class="modal-dialog modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">Eatmad Al-Khalej</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<div>
+									<p>Client Project</p>
+									<ul class="list">
+										<li><span>Website</span>: eatemadktc.com </li>
+										<li><span>Date</span>: March 2018</li>
+										<li><span>Technologies</span>: CSS</li>
+									</ul>
+								</div>
+								<p>Pictures:</p>
+								<div class="owl-carousel owl-theme projects">
+									<div class="item" ><img src="/img/works/eatemad-details.JPG" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
 	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="almoyaser">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">Al-Moyaser</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>Dental Practice Management System, focus to make appointment scheduling easier.</p>
-						<ul class="list">
-							<li><span>Website</span>: <a href="http://moyaser.dimashky.com"
-									target="_blanck">moyaser.dimashky.com</a> </li>
-							<li><span>Started</span>: October 2018</li>
-							<li><span>Completed</span>: In progress</li>
-						</ul>
-					</div>
-					<p>Pictures:</p>
-					<div class="owl-carousel owl-theme projects">
-						<div class="item"><img src="/img/works/moyaser/intro.png" alt=""></div>
-						<div class="item-video" data-merge="1"><a class="owl-video"
-								href="https://www.youtube.com/watch?v=pX72wR7SbiI"></a></div>
-						<div class="item-video" data-merge="1"><a class="owl-video"
-								href="https://www.youtube.com/watch?v=REKveVqGfrA"></a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="quadcopter">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">QuadCopter Simulator</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>University Project</p>
-						<ul class="list">
-							<li><span>Website</span>: <a href="https://github.com/dimashky/Quadcopter-Simulator"
-									target="_blanck">GitHub</a> </li>
-							<li><span>Date</span>: December 2016</li>
-							<li><span>Technologies</span>: C# & XNA</li>
-						</ul>
-					</div>
-					<p>Pictures:</p>
-					<div class="owl-carousel owl-theme projects">
-						<div class="item" ><img src="/img/works/quadcopter-details.png" alt=""></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="drfd">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">Dr. Fouad Portfolio</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>Client Project</p>
-						<ul class="list">
-							<li><span>Client</span>: Fouad Dimashky</li>
-							<li><span>Website</span>: <a href="http://dr-fd.com"
-									target="_blanck">dr-fd.com</a> </li>
-							<li><span>Date</span>: 2017</li>
-							<li><span>Technologies</span>: PHP Laravel, MySQL, Bootstrap.</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="searchengine">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">Search Engine</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>Content Based Search Engine, University Project</p>
-						<ul class="list">
-							<li><span>Website</span>: <a href="https://github.com/dimashky/content-based-image-retrieval"
-									target="_blanck">GitHub</a> </li>
-							<li><span>Date</span>: May 2019</li>
-							<li><span>Technologies</span>: Python</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="meshwary">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">Meshwary</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>Navigation System, Graduation Project</p>
-						<ul class="list">
-							<li><span>Grade</span>: 94%</li>
-							<li><span>Date</span>: July 2019</li>
-							<li><span>Technologies</span>: 
-								<span class="badge badge-pill badge-secondary">Python</span>
-								<span class="badge badge-pill badge-secondary">Laravel</span>
-								<span class="badge badge-pill badge-secondary">Redis</span>
-								<span class="badge badge-pill badge-secondary">NodeJS</span>
-								<span class="badge badge-pill badge-secondary">RPC</span>
-							</li>
-						</ul>
-					</div>
-					<p>Pictures:</p>
-					<div class="owl-carousel owl-theme projects">
-						<div class="item"><img src="/img/works/meshwary/RoutePlanner.png" alt=""></div>
-						<div class="item" ><img src="/img/works/meshwary/Congestion.png" alt=""></div>
-						<div class="item" ><img src="/img/works/meshwary/Lines.png" alt=""></div>
-						<div class="item" ><img src="/img/works/meshwary/stops.png" alt=""></div>
-						<div class="item" ><img src="/img/works/meshwary/Tracker.png" alt=""></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="compiler">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">C# Compiler</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>University Project</p>
-						<ul class="list">
-							<li><span>Website</span>: <a href="https://github.com/dimashky/compiler"
-									target="_blanck">GitHub</a> </li>
-							<li><span>Date</span>: May 2018</li>
-							<li><span>Technologies</span>: C++ & assembly</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- The Modal -->
-	<div class="modal fade" id="eatmad">
-		<div class="modal-dialog modal-xl modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2 class="modal-title">Eatmad Al-Khalej</h2>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-					<div>
-						<p>Client Project</p>
-						<ul class="list">
-							<li><span>Website</span>: eatemadktc.com </li>
-							<li><span>Date</span>: March 2018</li>
-							<li><span>Technologies</span>: CSS</li>
-						</ul>
-					</div>
-					<p>Pictures:</p>
-					<div class="owl-carousel owl-theme projects">
-						<div class="item" ><img src="/img/works/eatemad-details.JPG" alt=""></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
