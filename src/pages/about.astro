@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Mhd Dimashky" description="About Mhd Dimashky">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Mhd Dimashky at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						I am a Senior Software Engineer and a Web Developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with Vue.js and React. I also have experience working with PHP Laravel and Node.js
+					</p>
+					<br />
+					<p>
+						Participated in college programming contests (<a href="https://icpc.baylor.edu/" target="_blank">Damascus-CPC</a>) in
+						my university between 2016 and 2017, and I
+						qualified for the national level.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>
+						Information Technology, Software Engineering Department<br><a href="http://www.damascusuniversity.edu.sy/index.php?lang=2" target="_blank">Damascus University</a> (2014-2019).
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<div>
+						<b>Senior Web Developer</b><br />
+						BeInMedia · Full-time<br />
+						Jul 2020 - Dec 2022<br />
+						Kuwait City, Al Asimah, Kuwait · Remote
+					</div>
+					<br />
+					<div>
+						<b>Web Developer</b>
+						Medicus AI · Full-time<br />
+						Mar 2020 - Jun 2020<br />
+						Vienna, Austria<br />
+					</div>
+					<br />
+					<div>
+						<b>Junior Web Developer</b><br />
+						appagroup · Part-timeappagroup · Part-time<br />
+						Mar 2018 - Dec 2018<br />
+						Damascus, Syria.Damascus, Syria.
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>Node.js, React, Vue, Laravel, MySQL.</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
